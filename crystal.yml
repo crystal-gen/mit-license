@@ -1,0 +1,8 @@
+name: mit-license
+version: 0.1.0
+description: MIT License generator
+
+gen:
+  file:
+    license:
+      dest: LICENSE
