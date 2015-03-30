@@ -1,0 +1,9 @@
+name: mit-license-test
+version: 0.1.0
+description: mit-license test
+
+copyright: 2015 Example, Inc.
+
+generators:
+  mit-license:
+    version: latest
