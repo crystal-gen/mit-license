@@ -2,17 +2,11 @@ name: mit-license
 version: 0.1.0
 description: MIT License generator
 
-author:
-  name: Chris Tate
-  email: chris@studiotate.com
-  url: http://studiotate.com
-copyright: 2015 Studio Tate
-
-gen:
-  file:
+dependencies:
+  configurations:
+    studiotate: latest
+  
+src:
+  gen:
     license:
       dest: LICENSE
-
-generators:
-  project:
-    version: latest
